@@ -1,10 +1,11 @@
 import css from './App.module.css';
-import ItWorks from './components/Sidebar';
+import Sidebar from './components/Sidebar';
+
 
 function App() {
   return (
     <div className={css.App}>
-      <ItWorks/>
+      <Sidebar/>
     </div>
   );
 }
