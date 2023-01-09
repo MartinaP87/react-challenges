@@ -5,12 +5,14 @@ import NavBarForm from './components/NavBarForm';
 import Content from './components/Content';
 import SearchBar from './components/SearchBar';
 import ContentHooks from './components/ContentHooks';
+import ContentAPI from './components/ContentAPI';
+import ContentAPIHooks from './components/ContentHooks';
 
 
 function App() {
   return (
     <div className={css.App}>
-      <ContentHooks/>
+      <ContentAPIHooks/>
     </div>
   );
 }

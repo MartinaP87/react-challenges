@@ -24,7 +24,6 @@ function ContentHooks() {
             return post.name.toLowerCase().includes(name)
         })
         setFetchedPosts(filteredPosts)
-
     }
    
 
